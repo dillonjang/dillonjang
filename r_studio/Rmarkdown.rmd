@@ -1,0 +1,23 @@
+**Practice Assignment 1** 
+---
+title: "R markdown"
+author: "Dillon"
+date: "9/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### **Text**
+This R markdown is for practice 1. To understand the basics of R studio.
+
+### **Code Chunks**
+
+### Count loop
+```{r}
+for (x in 1:10) 
+{
+    print(x)
+}
+```
